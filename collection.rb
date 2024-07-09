@@ -56,10 +56,12 @@ class Collection
 
   def view_collection
     puts "Your Movie Collection"
-    @movies.each do |movies|
-      puts movies
+    if @movies.empty?
+      puts "You have no movies in your collection."
+    else
+    @movies.each do |movie|
+      puts movie
   end
-
-  
-
+end
+end
 end
