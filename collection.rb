@@ -53,4 +53,13 @@ class Collection
     @movies << Movie.new(title, director, year, genre, runtime, review)
     puts "Movie added to collection!"
   end
+
+  def view_collection
+    puts "Your Movie Collection"
+    @movies.each do |movies|
+      puts movies
+  end
+
+  
+
 end
