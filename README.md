@@ -3,6 +3,9 @@ This is a simple Ruby command-line interface (CLI) application that allows the u
 
 ## Features
 - The user can add a movie to their "Movie Favorite's Collection" with the following details: Title, Director, Year, Genre, Runtime, and Review
+- Displays all movies in the collection
+- Give recommendation of movie from the collection to watch
+- Gives example of a movie in the collection
 
 ## How To Use
 1. Go to the [Favorite Movies CLI Github Page](https://github.com/viviancreates/favorite_movies_cli)
