@@ -1,5 +1,5 @@
 class Movie
-  attr_accessor :title :director :year :genre :runtime :review
+  attr_accessor :title, :director, :year, :genre, :runtime, :review
     
   def initialize
     @title = title

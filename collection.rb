@@ -53,3 +53,4 @@ class Collection
     @movies << Movie.new(title, director, year, genre, runtime, review)
     puts "Movie added to collection!"
   end
+end
