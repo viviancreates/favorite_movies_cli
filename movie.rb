@@ -1,7 +1,7 @@
 class Movie
   attr_accessor :title, :director, :year, :genre, :review
     
-  def initialize
+  def initialize (title, director, year, genre, review)
     @title = title
     @director = director
     @year = year
