@@ -46,11 +46,9 @@ class Collection
     year = gets.chomp
     puts "Add the genre: "
     genre = gets.chomp
-    puts "Add the runtime: "
-    runtime = gets.chomp
     puts "Add your review: "
     review = gets.chomp
-    @movies << Movie.new(title, director, year, genre, runtime, review)
+    @movies << Movie.new(title, director, year, genre, review)
     puts "Movie added to collection!"
   end
 
@@ -61,7 +59,17 @@ class Collection
     else
     @movies.each do |movie|
       puts movie
+    end
   end
 end
+
+def recommend_movie
+if @movies.empty?
+      puts "You have no movies in your collection, the movie app has no recommendations."
+else
+  puts "The movie app recommends: "
+  puts @movies.sample
 end
+end
+
 end
