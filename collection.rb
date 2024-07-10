@@ -72,4 +72,8 @@ else
 end
 end
 
+def example
+  put "Title: Dune, Director: Denis Villeneuve, Year Released: 2021, Genre: Sci Fi, My Review: Hated it at first, but then loved it after rewatching in 2024."
+end
+
 end
